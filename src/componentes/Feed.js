@@ -14,7 +14,7 @@ function Feed(){
 
     useEffect(()=>{
         const getPontos = async ()=>{
-            const pontosData = await fetch("https://api-queimadas.onrender.com")
+            const pontosData = await fetch("https://api-queimadas.onrender.com/focos-queimadas")
             const pontosES = await pontosData.json()
             setPontos(pontosES)
             
