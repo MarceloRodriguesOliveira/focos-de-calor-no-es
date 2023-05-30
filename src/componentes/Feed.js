@@ -14,7 +14,7 @@ function Feed(){
 
     useEffect(()=>{
         const getPontos = async ()=>{
-            const pontosData = await fetch("https://focos-de-calor-no-es.netlify.app")
+            const pontosData = await fetch("https://api-queimadas.onrender.com")
             const pontosES = await pontosData.json()
             setPontos(pontosES)
             
