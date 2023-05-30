@@ -1,0 +1,79 @@
+.card_info h4{
+    margin: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: #336699;
+    color: #eee;
+    font-weight: 600;
+}
+
+.card_info p{
+    padding-left: 20px;
+}
+
+.card_info h6{
+    padding-left: 35px;
+    padding-top: 3px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.card_info div{
+    position: relative;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.card_info h5{
+    cursor: pointer;
+    text-align: end;
+    padding-right: 7px;
+    font-size: 2rem;
+    color: #336699;
+    transition: .2s;    
+}
+
+.card_info h5:hover{
+    background: linear-gradient(to right, #336699 100%, #f09cbf);
+    background-clip: text;
+    color: transparent;
+
+    animation-name: arrow;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes arrow{
+    0%{
+        background: linear-gradient(to right, #f09cbf 0%, #336699 25%);
+        background-clip: text;
+        color: transparent;
+       
+    }
+    25%{
+        background: linear-gradient(to right, #f09cbf 25%, #336699 50%);
+        background-clip: text;
+        color: transparent;
+
+    }
+    50%{
+        background: linear-gradient(to right, #f09cbf 50%, #336699 75%);
+        background-clip: text;
+        color: transparent;
+
+    }
+    100%{
+        /* background: linear-gradient(to right, #f09cbf 99%, #336699 100%);
+        background-clip: text;
+        color: transparent; */
+        color: #f09cbf;
+        /* transform: scale(1.5);
+        transform: translate(5px); */
+
+    }
+}
+

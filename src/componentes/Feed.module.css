@@ -1,0 +1,16 @@
+.feed_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+    padding: 10px 0px;
+    gap: 1.5rem;
+}
+
+
+.feed_container div{
+    border: 1px solid #8888;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .2s;
+}

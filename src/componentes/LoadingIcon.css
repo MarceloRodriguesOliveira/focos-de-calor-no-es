@@ -1,0 +1,29 @@
+.load_animation{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    border: 5px solid #336699;
+    border-top: 5px solid #f09cbf;
+    border-left: 5px solid #f09cbf;
+    margin: 0 auto;
+
+    
+
+    animation: mymove 2s forwards infinite;
+    
+}
+
+@keyframes mymove{
+    0%{
+        transform: rotate(-360deg) scale(1);
+        
+        
+    } 
+
+    100%{
+        transform: rotate(360deg) scale(1.2);
+        
+        
+    }
+}
+
+

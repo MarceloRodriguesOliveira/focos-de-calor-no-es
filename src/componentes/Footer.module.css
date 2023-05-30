@@ -1,0 +1,32 @@
+.footer_container{
+    background-color: #336699;
+    margin-top: auto;
+    min-width: 300px;
+}
+
+.footer_container ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #eee;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.footer_container ul li a{
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .3s;
+    color: #eee;
+}
+
+.footer_container ul li a:hover{
+    color: #f09cbf;
+}
+
+.footer_container p{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #eee;
+}
